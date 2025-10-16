@@ -1,0 +1,23 @@
+{
+  "name": "@instellarmc/website",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "@instellarmc/tsconfig": "workspace:*",
+    "react": "catalog:react",
+    "react-dom": "catalog:react"
+  },
+  "devDependencies": {
+    "typescript": "catalog:dev"
+  },
+  "imports": {
+    "#site/*": [
+      "./*",
+      "./*.tsx",
+      "./*.ts",
+      "./*.mjs"
+    ]
+  }
+}

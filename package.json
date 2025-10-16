@@ -1,0 +1,32 @@
+{
+  "name": "@instellarmc/website-root",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "catalogs": {
+      "dev": {
+        "typescript": "^5.9.3"
+      },
+      "react": {
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0"
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "lefthook": "^1.13.6",
+    "turbo": "~2.5.8"
+  },
+  "trustedDependencies": [
+    "lefthook"
+  ]
+}

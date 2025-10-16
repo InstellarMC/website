@@ -1,0 +1,13 @@
+# Commonly ignored Node.js files
+node_modules
+.env.*
+
+# Distributed files
+dist
+
+# Next.js build output
+apps/website/.next
+apps/website/build
+
+## macOS-specific files
+.DS_Store
