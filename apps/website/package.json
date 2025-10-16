@@ -6,10 +6,12 @@
   "scripts": {},
   "dependencies": {
     "@instellarmc/tsconfig": "workspace:*",
+    "next": "^16.0.0-beta.0",
     "react": "catalog:react",
     "react-dom": "catalog:react"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.2.6",
     "typescript": "catalog:dev"
   },
   "imports": {
