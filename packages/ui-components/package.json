@@ -1,0 +1,48 @@
+{
+  "name": "@instellarmc/ui-components",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "bun run lint:css",
+    "lint:css": "stylelint \"**/*.css\" --cache --cache-strategy=content --cache-location=.stylelintcache",
+    "dev": "storybook dev -p 6006 --quiet --no-open"
+  },
+  "devDependencies": {
+    "@instellarmc/tsconfig": "workspace:*",
+    "@storybook/addon-themes": "^9.1.12",
+    "@storybook/react-vite": "^9.1.12",
+    "@tailwindcss/vite": "catalog:css",
+    "@types/node": "catalog:dev",
+    "@types/react": "catalog:react",
+    "@vitejs/plugin-react": "^5.0.4",
+    "storybook": "^9.1.12",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard": "^39.0.1",
+    "stylelint-order": "^7.0.0",
+    "tailwindcss": "catalog:css",
+    "typescript": "catalog:dev",
+    "vite": "^7.1.10"
+  },
+  "imports": {
+    "#ui": [
+      "./*",
+      "./*.tsx",
+      "./*.ts",
+      "./*.mjs"
+    ]
+  },
+  "exports": {
+    "./components/*": "./components/*",
+    "./icons/*": "./icons/*",
+    "./styles/*": "./styles/*"
+  },
+  "files": [
+    "components",
+    "icons",
+    "styles"
+  ],
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.1"
+  }
+}

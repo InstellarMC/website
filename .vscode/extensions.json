@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "stylelint.vscode-stylelint",
+    "bradlc.vscode-tailwindcss",
+    "astro-build.astro-vscode",
+    "oven.bun-vscode",
+    "biomejs.biome",
+    "csstools.postcss",
+    "editorconfig.editorconfig"
+  ]
+}

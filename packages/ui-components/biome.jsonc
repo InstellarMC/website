@@ -1,0 +1,20 @@
+{
+  "$schema": "..\\..\\node_modules\\@biomejs\\biome\\configuration_schema.json",
+  "extends": "//",
+  "overrides": [
+    {
+      "includes": [
+        ".storybook/main.ts",
+        "stylelint.config.mjs",
+        "vite.config.ts"
+      ],
+      "linter": {
+        "rules": {
+          "style": {
+            "noDefaultExport": "off"
+          }
+        }
+      }
+    }
+  ]
+}

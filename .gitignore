@@ -9,5 +9,8 @@ dist
 apps/website/.next
 apps/website/build
 
+# Cache files
+.stylelintcache
+
 ## macOS-specific files
 .DS_Store
