@@ -33,7 +33,7 @@
   "devDependencies": {
     "@biomejs/biome": "^2.2.6",
     "@types/bun": "latest",
-    "lefthook": "^1.13.6",
+    "lefthook": "^2.0.0",
     "turbo": "~2.6.0"
   },
   "trustedDependencies": [
